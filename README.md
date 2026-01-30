@@ -60,6 +60,11 @@ The [tangent][tangent] is defined as
 To use in Observable,
 
 ```javascript
+tanf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-tanf/tags). For example,
+
+```javascript
 tanf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.0-umd/browser.js' )
 ```
 
@@ -72,7 +77,7 @@ var tanf = require( 'path/to/vendor/umd/math-base-special-tanf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -120,7 +125,7 @@ v = tanf( NaN );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
