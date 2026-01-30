@@ -58,7 +58,7 @@ The [tangent][tangent] is defined as
 ## Usage
 
 ```javascript
-import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@deno/mod.js';
+import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.0-deno/mod.js';
 ```
 
 #### tanf( x )
@@ -93,7 +93,7 @@ v = tanf( NaN );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pi@deno/mod.js';
-import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@deno/mod.js';
+import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
