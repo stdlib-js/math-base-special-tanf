@@ -58,6 +58,11 @@ The [tangent][tangent] is defined as
 ## Usage
 
 ```javascript
+import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-tanf/tags). For example,
+
+```javascript
 import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.1-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ v = tanf( NaN );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pi@esm/index.mjs';
-import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@v0.1.1-esm/index.mjs';
+import tanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tanf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
